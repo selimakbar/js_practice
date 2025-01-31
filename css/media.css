@@ -1,0 +1,213 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+header{
+    padding: 5px 0;
+}
+.feature{
+    padding: 0 0 50px;
+}
+.logo{
+    width: 180px;
+}
+.menu ul li a{
+    margin-bottom: 10px;
+    padding: 0 10px !important;
+}
+.f_item{
+    padding: 0 0 0;
+}
+.b_text{
+    text-align: center;
+}
+.b_h1{
+    font-size: 30px;
+    margin: 10px 0px 20px;
+    line-height: 40px;
+}
+.b_p2{
+    margin: 0 0;
+    line-height: 30px;
+}
+.b_img{
+    margin-bottom: 0;
+    padding: 50px;
+}
+.c_padding{
+ padding: 0 0 50px;   
+}
+.c_h1{
+font-size: 25px;
+
+}
+.co_item{
+    margin: 40px 0 0;
+    padding: 20px 15px 20px;
+}
+.co_h2{
+font-size: 20px;
+}
+.co_left img, .co_right img{
+    width: 20px;
+}
+.co_left span, .co_right span{
+    font-size: 15px;
+    font-weight: 400;
+}
+.lii:not(:last-child){
+    margin-right: 2px;
+}
+.t_item{
+    margin-top: 30px;
+}
+.t_img{
+    padding: 0 60px 20px;
+}
+.t_text{
+    text-align: center;
+}
+.footer_top{
+    text-align: center;
+    padding: 60px 0 30px;
+}
+.ft_details{
+    margin-bottom: 35px;
+    padding-right: 0;
+}.ft_links h2{
+    margin-top: 20px;
+    margin-bottom: 0;
+ 
+}
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+header{
+    padding: 5px 0;
+}
+.logo{
+    width: 180px;
+}
+.menu ul li a{
+    margin-bottom: 10px;
+    padding: 0 10px !important;
+}
+.b_text{
+    text-align: center;
+}
+.b_h1{
+    margin: 10px 53px 20px;
+    line-height: 50px;
+}
+.b_p2{
+    margin: 0 58px;
+    line-height: 30px;
+}
+.b_img{
+    margin-bottom: 30px;
+    padding: 50px;
+}
+.co_item{
+    margin: 40px 50px 0;
+    padding: 20px 15px 20px;
+}
+.c_h1{
+font-size: 30px;
+}
+.co_h2{
+font-size: 20px;
+}
+.t_item{
+    margin-top: 30px;
+}
+.t_img{
+    padding: 0 125px 20px;
+}
+.t_text{
+    text-align: center;
+}
+.footer_top{
+    text-align: center;
+}
+.ft_details{
+    margin-bottom: 40px;
+    padding: 0 60px;
+}
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+.menu ul li a{
+    margin-bottom: 10px;
+    padding: 0 10px !important;
+}
+.b_text{
+    text-align: center;
+}
+.b_h1{
+    margin: 10px 130px 20px;
+    line-height: 50px;
+}
+.b_p2{
+    margin: 0 100px;
+    line-height: 30px;
+}
+.b_img{
+    margin-bottom: 30px;
+    padding: 50px;
+}
+.feature {
+    padding: 0 0 45px;
+}
+.f_img {
+    width: 45px;
+    height: 50px;
+}
+.co_item{
+    margin: 40px 120px 0;
+}
+.t_item{
+    margin-top: 40px;
+}
+.footer_top{
+    text-align: center;
+}
+.ft_details{
+    margin-bottom: 40px;
+    padding: 0 60px;
+}
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.b_h1{
+    margin: 10px 40px 20px 0;
+}
+.feature {
+    padding: 0 0 46px;
+}
+.f_img {
+    width: 56px;
+    height: 65px;
+}
+.co_item{
+    padding: 20px 15px 25px;
+}
+.co_left img, .co_right img{
+    width: 20px;
+}
+.co_left span, .co_right span{
+    font-size: 15px;
+    font-weight: 400;
+}
+.lii:not(:last-child){
+    margin-right: 2px;
+}
+/* Extra Large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+.b_h1{
+    margin: 10px 40px 20px 0;
+}
+}
+/* Extra Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+.ft_details{
+    padding-right: 130px;
+}
+}
